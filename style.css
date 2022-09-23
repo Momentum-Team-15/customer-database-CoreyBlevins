@@ -1,0 +1,50 @@
+*{
+    box-sizing: border-box;
+    font-family:serif;
+}
+h1 {
+    text-align: center;
+}
+section {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    justify-content: center;
+    width:90%;
+    margin: 5% auto;
+
+}
+.person {
+    background: whitesmoke;
+    border: 2px solid lightgrey;
+    box-shadow: 3px 1px 2px lightgray;
+    border-radius: 20px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 10px 10px 10px;
+    padding: 10px;
+}
+img {
+    width: 150px;
+    height: auto;
+    object-fit: cover;
+    border-radius: 55px 85px 55px 85px;
+}
+.email {
+    color: grey;
+}
+.address-one {
+    margin-top: 10px;
+}
+.address-two {
+    margin-bottom: 10px;
+}
+.title {
+    font-weight: bold;
+}
+.birthdate {
+    margin-bottom:10px;
+}
+p {
+    margin: 1px;
+}
